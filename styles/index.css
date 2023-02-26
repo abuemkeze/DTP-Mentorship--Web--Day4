@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: o;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  width: 1600px;
+  height: 1200px;
+
+  background: linear-gradient(119.36deg, #f3f7ff 0%, #fee2f6 100%);
+}
+
+.rectangle {
+  position: absolute;
+  width: 443px;
+  height: 651px;
+  left: 517px;
+  top: 273px;
+
+  background: #ffffff;
+  border-radius: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 16px;
+
+  position: absolute;
+  width: 531px;
+  height: 469px;
+  left: 183px;
+  top: 555px;
+
+  background: #f1e2f5;
+  box-shadow: 0px 56px 84px rgba(122, 58, 173, 0.15);
+  border-radius: 12px;
+  border: solid 6px #ffffff;
+}
+
+h2 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+
+  color: #1a2653;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  width: 467px;
+  height: 59px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+
+  border-radius: 16px;
+
+  width: 467px;
+  height: 59px;
+}
+
+.row p {
+  width: 435px;
+  height: 0px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #1a2653;
+}
